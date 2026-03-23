@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetroCorp - Productos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/paginastyle.css">
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="index.html">PetroCorp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina.html">Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- de la segunda pagina-->
+    <div class="container-fluid bg-secondary text-white py-5 text-center">
+        <h1 class="display-4">Productos PetroCorp</h1>
+        <p>Calidad en cada barril para Colombia.</p>
+    </div>
+
+<!-- info de la empresa -->
+<div class="container py-5">
+<div class="prod-layout">
+    <div class="prod-lista">
+        <h5>Nuestra Lista</h5>
+        <ul class="list-group">
+            <li class="list-group-item">Gasolina</li>
+            <li class="list-group-item">Diesel</li>
+            <li class="list-group-item">Crudo</li>
+            <li class="list-group-item">Aceites</li>
+        </ul>
+    </div>
+    <div class="prod-texto">
+        <h3>Variedad de Derivados</h3>
+        <p>En PetroCorp sacamos muchos productos. El petroleo sirve para todo, desde mover carros hasta hacer plasticos. Aqui puedes ver lo que vendemos y sus precios.</p>
+        <p>Todos tienen garantia de que son buenos y no dañan los motores.</p>
+        <button class="btn btn-primary mt-3">Comprar ahora</button>
+    </div>
+    <div class="prod-tabla">
+        <h5>Precios COP</h5>
+        <table class="table table-sm table-bordered">
+            <tr class="table-dark"><td>Producto</td><td>Precio Galon</td></tr>
+            <tr><td>Gasolina Corriente</td><td>$15.500 COP</td></tr>
+            <tr><td>Diesel Premium</td><td>$10.200 COP</td></tr>
+            <tr><td>Crudo Industrial</td><td>$345.000 COP</td></tr>
+        </table>
+    </div>
+</div>
+</div>
+
+<!-- registro y video -->
+<section class="container my-5">
+<div class="row">
+<div class="col-lg-6 mb-4 mb-lg-0">
+<h2>Nuestra Filosofia</h2>
+<p>Trabajamos pensando en el mañana. La verdad es que nosotros queremos cuidar mucho a nuestros <strong>colaboradores</strong>, pero es que ellos no colaboran nada, entonces asi es muy dificil. Igual ahi te dejo el video para que veas como se intenta.</p>
+<div class="ratio ratio-4x3 bg-dark rounded shadow overflow-hidden">
+<video controls poster="imagenes/pagina2/estacion.png">
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+
+<div class="col-lg-6">
+<h2>Suscribete</h2>
+<p>Danos tus datos para contactarte con mejores ofertas.</p>
+<form class="p-4 border rounded bg-light">
+<div class="row">
+<div class="col-md-6 mb-3">
+<input type="text" class="form-control" placeholder="Nombre Empresa">
+</div>
+<div class="col-md-6 mb-3">
+<input type="text" class="form-control" placeholder="NIT / RUT">
+</div>
+</div>
+<div class="mb-3">
+<input type="email" class="form-control" placeholder="Email corporativo">
+</div>
+<div class="mb-3">
+<input type="tel" class="form-control" placeholder="Telefono de contacto">
+</div>
+<div class="mb-3">
+<select class="form-select">
+<option selected>Interesado en...</option>
+<option value="1">Gasolina</option>
+<option value="2">Diesel</option>
+<option value="3">Crudo</option>
+</select>
+</div>
+<div class="mb-3">
+<input type="text" class="form-control" placeholder="Volumen mensual estimado">
+</div>
+<button type="submit" class="btn btn-success w-100">Enviar solicitud</button>
+</form>
+</div>
+</div>
+</section>
+
+<!-- final de la pagina -->
+<footer class="bg-dark text-white pt-5 pb-3">
+<div class="container">
+<div class="row align-items-center">
+    <div class="col-md-4">
+        <h5>Mas Info</h5>
+        <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Regresar al inicio</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="footer-logo">PetroCorp</div>
+        <p>El poder del crudo</p>
+    </div>
+    <div class="col-md-4 text-md-end">
+        <!-- datos del final, redes sociakes y cosas así-->
+        <h5>Siguenos</h5>
+        <div>
+            <img src="imagenes/facebook.png" width="30">
+            <img src="imagenes/x.png" width="30">
+            <img src="imagenes/whatsapp.png" width="30">
+        </div>
+    </div>
+</div>
+</div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
