@@ -21,12 +21,15 @@ Para que el proyecto esté ordenado, se usó esta estructura:
 - **Bootstrap 5:** Se usó para que la página sea "responsiva", o sea, que se vea bien en celulares y en computadoras sin que se descuadre nada.
 - **CSS:** Para poner los colores gris y dorado, y para que los botones y el carrusel se vean mejor.
 - **JavaScript:** Un archivo sencillo para que el sitio tenga algo de movimiento y los formularios funcionen.
+  
+  Todo lo anteriormente mencionado fue realizado por medio del editor de código visual studio.
  
 ## Conclusión
  
-El proyecto cumple con mostrar la información de la industria del petróleo de forma clara. Se aprendió a organizar mejor las carpetas de un proyecto y a usar componentes de Bootstrap para que el diseño sea más rápido de hacer.
+En el proceso de la configuración del proyecto encontré problemas para organizar la página, así como caracteristicas como las casillas de la tabla u otros datos mostrados en la consola, aún me doy cuenta de que las imagenes mostradas en el carrusel no tienen la mejor calidad, pues el tamaño con el que se descargo de la pagina no es el mas apto y al momento de ponerse allí pues al estirarse cambia todo el diseño, aunque al momento es funcional, espero conseguir imagenes de mayor calidad y de un tipo mas horizontal que permitan versen con claridad en esa parte, pues la configuración de los espacios y los limites establecidos todavia son un poco complejos de configurar. 
+Al momento puedo ver como la página va tomando forma, pero aún me dificulta un poco colocar otras opciones, como un menú deplegable o que el carrusel de las imagenes se mueva automaticamente, espero con el avance del curso ir agregando esas caracteristicas adicionales.
  
 ---
-**Autor:** Jason Muñoz
+**Autor:** Jason Stiven Muñoz Sotelo
 **Materia:** Fundamentos de Diseño Web
 **Fecha:** 22 de marzo de 2026
